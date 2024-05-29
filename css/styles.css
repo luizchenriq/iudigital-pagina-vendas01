@@ -477,7 +477,11 @@ progress {
 
 .lead {
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: 100;
+}
+
+.bold {
+  font-weight: 900;
 }
 
 .display-1 {
@@ -10947,11 +10951,12 @@ html {
 }
 
 .callout {
-  padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
+  padding: 5rem 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  color:#fff;
 }
 .callout h2, .callout .h2 {
   font-size: 3.5rem;
