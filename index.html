@@ -12,73 +12,99 @@
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="css/styles.css" rel="stylesheet" />
 <style>
+body {
+   /* background:linear-gradient(180deg,#070616,#1b1933 44.5%,#1c1c1c);*/
+}
+#logo {
+    min-width:6rem;max-width:14rem;
+}
+#logo2 {
+    max-width:14rem;
+}
+h1.headline {
+    font-size: 2rem;
+    color:#fff;
+}
 video {
     width: 100%;
     height: auto;
+    max-width:50rem;
+    border-radius:0.375rem;
 }
 #alex{
 width:15rem;
 border-radius: 50%;
 }
+.actionbutton{
+    font-weight: bolder;
+    font-family: "verdana";
+    font-size: 1rem;
+    color:rgb(255, 255, 255);
+    background-color: #198754;
+
+}
+.text-justify {
+  text-align: justify;
+}
 </style>
     </head>
-    <body id="page-top" style="background:linear-gradient(180deg,#070616,#1b1933 44.5%,#1c1c1c);">
-        <header class="masthead d-flex align-items-center">
-            <div class="container px-4 px-lg-5 text-center">
-                <img id="logo" style="min-width:4rem;max-width:5rem;" src="assets/img/logo.png" class="mb-5" />
-                <h1 class="mb-4" style="font-size:2rem; color:#fff">Conheça a maior escola de marketing digital, <br />negócios e empreendedorismo do Brasil.</h1>
+    <body id="page-top">
+        <header class="masthead d-flex align-items-center" style="background:linear-gradient(180deg,#070616,#1b1933 44.5%,#1c1c1c);">
+            <div class="container text-center">
+                <img id="logo" src="assets/img/logo.png" class="mb-3" />
+                <h1 class="mb-4 headline">Conquiste sucesso no Mercado Digital<br />
+                Aprenda as estratégias de negócio mais usadas na Internet</h1>
+                <h2 style="font-size: 1rem;color:#fff">Um negócio online vai te trazer escala com pouquissímo custo e vai te dar liberdade<br />para você trabalhar de qualquer lugar do mundo, sem patrão ou horário fixo</h2>
                 <div>
-                  <video style="max-width:35rem;border-radius:0.375rem" class="mb-3" controls autoplay class="embed-responsive embed-responsive-16by9">
-                      <source src="assets/videos/example-720p-1mb.mp4" type="video/mp4">
+                  <video class="mt-3 mb-3" controls>
+                      <source src="assets/videos/video02.mp4" type="video/mp4">
                   </video>
                 </div>
-                <a class="btn btn-warning btn-xl font-weight-bold"" style="border-radius:2rem" href="#about">Mude suas possibilidades AGORA!</a>
+                <a class="btn btn-success btn-xl" style="border-radius:2rem" href="#about"><span class="actionbutton">Quero viver de Internet</span></a>
             </div>
         </header>
 
-
-
-        <section class="content-section bg-primary text-white text-center" id="services">
-            <div class="container px-4 px-lg-5">
+        <section class="content-section  text-white text-center" id="services" style="background-color:#002365/*#1d2d9f*/">
+            <div class="container px-4 px-lg-5 mb-5" >
                 <div class="content-section-heading">
-                    <h2 class="mb-5">Benefícios</h2>
+                    <h2 class="mb-5">Vantagens da <img id="logo2" src="assets/img/logo.png" /></h2>
                 </div>
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-screen-smartphone"></i></span>
-                        <h4><strong>Flexibilidade</strong></h4>
-                        <p class="text-faded mb-0">Para aprender no seu ritmo, quando e onde quiser;</p>
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-globe-alt"></i></span>
+                        <h4><strong>Liberdade</strong></h4>
+                        <p class="text-faded mb-0">Aprenda no seu ritmo, quando e onde quiser</p>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-pencil"></i></span>
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-event"></i></span>
                         <h4><strong>365 dias</strong></h4>
-                        <p class="text-faded mb-0">Acesso durante o ano todo</p>
+                        <p class="text-faded mb-0">Acesso durante o ano todo 24/7</p>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-5 mb-md-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-like"></i></span>
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-directions"></i></span>
                         <h4><strong>Atualizações</strong></h4>
-                        <p class="text-faded mb-0">Atualizações regulares com novos conteúdos</p>
+                        <p class="text-faded mb-0">Atualizações semanais com novos conteúdos</p>
                     </div>
                 </div>
-
                 <div class="row gx-4 gx-lg-5 mt-5">
                     <div class="col-lg-4 col-md-6">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-mustache"></i></span>
-                        <h4><strong>Question</strong></h4>
-                        <p class="text-faded mb-0">I mustache you a question...</p>
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-layers"></i></span>
+                        <h4><strong>Diversidade</strong></h4>
+                        <p class="text-faded mb-0">Diversos cursos do Mercado Digital</p>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-screen-smartphone"></i></span>
-                        <h4><strong>Responsive</strong></h4>
-                        <p class="text-faded mb-0">Looks great on any screen size!</p>
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-target"></i></span>
+                        <h4><strong>Direto ao ponto</strong></h4>
+                        <p class="text-faded mb-0">Cursos sem enrolação</p>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-pencil"></i></span>
-                        <h4><strong>Redesigned</strong></h4>
-                        <p class="text-faded mb-0">Certificado de Conclusão</p>
+                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-support"></i></span>
+                        <h4><strong>Suporte</strong></h4>
+                        <p class="text-faded mb-0">Tire todas as suas dúvidas</p>
                     </div>
-                </div>
+                </div>                
              </div>
+             <a class="btn btn-success btn-xl" style="border-radius:2rem" href="#about"><span class="actionbutton">Quero viver de Internet</span></a>
         </section>
 
         <section class="content-section bg-light" id="about">
@@ -87,116 +113,124 @@ border-radius: 50%;
                     <div class="content-section-heading">
                         <h2 class="mb-5">Quem será seu professor?</h2>
                     </div>
-                    <div class="col-md-6 col-xs-12">
+                    <div class="col-md-4 col-xs-12">
                         <img id="alex" src="assets/img/alexvaz.jpg" />
                     </div>
-                    <div class="col-md-6 col-xs-12">
-                        <h2>Alex Vaz</h2>
-                        <p class="lead mb-5 justify-content">
-                            Empreendedor na Internet desde 2001. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing 
-                        </p>
+                    <div class="col-md-8 col-xs-12">
+                        <p class="lead mt-5 mb-5 text-justify"><span class="bold">Alex Vaz</span> é especialista em Marketing Digital com uma vasta experiência em Negócios Online. Com formação em Direito e influenciado por sua vivência nos EUA, ele adquiriu um conhecimento profundo em Marketing Digital. Desde 2001, ele tem sido um Empreendedor ativo na Internet, desenvolvendo websites e softwares utilizados por muitas famosos da TV: Artistas, Músicos, Apresentadores...<br /><br />Agora, ele está compartilhando seu conhecimento e experiência com você.</p>
                     </div>
                 </div>
+                <a class="btn btn-success btn-xl mt-5" style="border-radius:2rem" href="#about"><span class="actionbutton">Quero viver de Internet</span></a>
             </div>
         </section>
 
-<!--
-        <section class="callout">
-            <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mx-auto mb-5">
-                    Welcome to
-                    <em>your</em>
-                    next website!
-                </h2>
-                <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/theme/stylish-portfolio/">Download Now!</a>
-            </div>
-        </section>
--->
-
-        <section class="content-section" id="portfolio">
+        <section class="content-section" id="" style="background:linear-gradient(180deg,#070616,#1b1933 44.5%,#1c1c1c);">
             <div class="container px-4 px-lg-5">
-
-
                 <div class="content-section-heading text-center">
                     <h2 class="text-secondary mb-5">Perguntas Frequentes</h2>
                 </div>
                 <div class="row gx-0">
-                    <!--<div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Stationary</div>
-                                    <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                    <div class="col-lg-12">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Como a Escola IU Digital pode me ajudar?</button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        Nossa Escola foi fundada  com o propósito de disseminar o conhecimento necessário para pessoas  comuns (cansados de trabalhar muito e receber pouco) conseguirem criar seus negócios online, enriquecerem e conquistarem o que há de mais importante na vida: a liberdade de escolhas.<br />
+                                        Escolher com o que você quer trabalhar, de onde você quer trabalhar, como, em quais horários. E, o melhor de tudo: ser muito bem remunerado por isso.
+                                    </div>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio-1.jpg" alt="..." />
-                        </a>
-                    </div>-->
-                    <div class="col-lg-11">
 
-<div class="accordion accordion-flush" id="accordionFlushExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        Pergunta #1
-      </button>
-    </h2>
-    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-        Pergunta #2
-      </button>
-    </h2>
-    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-        Pergunta #3
-      </button>
-    </h2>
-    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
-    </div>
-  </div>
-</div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseOne">Vai funcionar para mim?</button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        Claro que sim, você só tem que aplicar os ensinamentos contidos nas aulas, é praticamente impossível você não ter resultados financeiros.<br />
+                                        Os professores da IUDIGITAL são praticantes do mercado, não somente teóricos. Ou seja, tudo que você vai aprender foi testado e validado em diversos nichos e vão funcionar para você
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseOne">Existem oportunidades de crescimento?</button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        O marketing digital oferece uma ampla gama de oportunidades de crescimento e progressão na carreira. Com a demanda crescente por profissionais qualificados em marketing digital, as perspectivas de crescimento são promissoras e podem levar a posições de liderança e altos salários.                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseOne">Posso experimentar e cancelar se não gostar?</button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        Sim, você tem 7 dias para experimentar qualquer curso da nossa escola  e cancelar sem necessidade de se justificar. Seu investimento será devolvido.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseOne">Como terei acesso ao curso?</button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        Caso você faça sua compra pelo cartão de crédito ou por Pix, em alguns instantes você já receberá um e-mail com acesso ao curso. Caso você pague via boleto bancário, seu acesso será disponibilizado entre 24 e 48 horas, também por e-mail.
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            
+
+                        </div>
                     </div>
-
                 </div>
             </div>
         </section>
 
-
-
-<!--
-        <section class="content-section bg-primary text-white">
+        <section class="callout">
             <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-                <a class="btn btn-xl btn-light me-4" href="#!">Click Me!</a>
-                <a class="btn btn-xl btn-dark" href="#!">Look at Me!</a>
+                <div class="row">
+                    <div class="col-md-7 mr-5 col-xs-12">                        
+                        <h2 class="mb-5" style="font-size:3rem"><span style="white-space: nowrap">Garantia de 7 dias</span></h2>
+                        <p style="font-size:1.25rem " class="mt-3 text-justify">Se em até 7 dias após a data da compra você achar que a IU Digital não é para você ou não quiser continuar por qualquer motivo, devolveremos o seu dinheiro.</p>
+                        <img src="assets/img/selo.png" class="mt-5" />
+                    </div>
+                    <div class="col-md-5 ml-5 col-xs-12">
+                        <h2 class="mx-auto mb-5">
+                            <span style="font-size:2rem">De <del>R$199,90</del> por mês</span><br /><br />Por apenas R$59,90<br />por mês
+                        </h2>
+                        <a class="btn btn-success btn-xl" style="border-radius:2rem" href="#about"><span class="actionbutton">Quero viver de Internet</span></a>
+                    </div>
+                </div>
+                
             </div>
         </section>
--->
 
-        <footer class="footer text-center">
+        <footer class="footer text-center" style="background:linear-gradient(180deg,#070616,#1b1933 44.5%,#1c1c1c);">
             <div class="container px-4 px-lg-5">
                 <ul class="list-inline mb-5">
                     <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-instagram"></i></a>
+                        <a class="social-link rounded-circle text-white mr-3" href="https://www.instagram.com/alexvazoficial/" target="_blank"><i class="icon-social-instagram"></i></a>
                     </li>
                 </ul>
                 <p class="text-muted small mb-0">Copyright &copy; IU Digital 2024</p>
             </div>
         </footer>
-        <!-- Scroll to Top Button-->
 
-<a style="color:#fff" class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>        
+        <!-- Scroll to Top Button-->
+        <a style="color:#fff" class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="js/scripts.js"></script>
     </body>
